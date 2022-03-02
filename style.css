@@ -1,0 +1,53 @@
+*{
+    transition: .3s;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: orange;
+}
+h1, h2, h3{
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+}
+.container{
+    border: 3px solid rgb(0, 132, 255);
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.input-block{
+    margin: 10px 0 20px;
+}
+
+input{
+    padding: 10px;
+    border: 3px solid rgba(0, 132, 255, 0);
+    width: 100%;
+    border-radius: 3px;
+}
+input:focus{
+    border: 3px solid rgb(0, 132, 255);
+}
+input:hover{
+    border: 3px solid rgb(0, 132, 255);
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 136, 255);
+}
+button:hover{
+    background-color: rgb(109, 68, 255);
+}
+button:active{
+    background-color: rgb(162, 255, 108);
+}
